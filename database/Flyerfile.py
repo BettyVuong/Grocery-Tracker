@@ -2,9 +2,8 @@ import mysql.connector
 
 # Example scraped data
 scraped_data = [
-    {"name": "Bananas", "price": 0.59, "store": "GroceryMart"},
-    {"name": "Bananas", "price": 0.55, "store": "FreshMarket"},
-    {"name": "Apples", "price": 1.20, "store": "GroceryMart"}
+    {"name": "Bananas", "brand" : "dole", "price": 0.59, "oldPrice": 1.00, "discount": .4},
+    {"name": "grapes", "brand" : "sunny", "price": 4.50, "oldPrice": 6.00, "discount": .2},
 ]
 
 
